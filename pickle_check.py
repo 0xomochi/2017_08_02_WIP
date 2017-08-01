@@ -7,3 +7,5 @@
 import pickle
 with open("apilist.pickle", "rb") as f:
 	data = pickle.load(f)
+
+#"data"で配列を出力
