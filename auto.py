@@ -3,6 +3,7 @@
 #読み込み
 #pefileで特徴抽出（APIリスト）
 #pickleに書き込み, 保存
+#"python auto.py path/to/file"で実行
 
 ##ファイルの読み込み
 import sys
