@@ -1,5 +1,5 @@
 #coding: UTF-8
-#pythonでvagrant上のファイルを
+#pythonでvagrant上のファイルを自動で
 #読み込み
 #pefileで特徴抽出（APIリスト）
 #pickleに書き込み, 保存
