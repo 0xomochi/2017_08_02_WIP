@@ -1,5 +1,7 @@
 #just a memo
 #killed pythonされたファイル
+#なぜkillされたのかわからないのでとりあえずメモ
+
 #koneko_navy.exe
 
 
