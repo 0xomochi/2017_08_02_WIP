@@ -14,7 +14,6 @@ echo 'http://www.vector.co.jp/vpack/filearea/winnt/game/shoot' >> /tmp/list
 echo 'http://www.vector.co.jp/vpack/filearea/winnt/game/shoot/index_002.html' >> /tmp/list
 echo 'http://www.vector.co.jp/vpack/filearea/winnt/util/arc' >> /tmp/list
 echo 'http://www.vector.co.jp/vpack/filearea/winnt/game/action/block' >> /tmp/list
-
 perl get.pl < /tmp/list
 
 
