@@ -1,5 +1,8 @@
 #coding: UTF-8
-#python auto
+#pythonでvagrant上のファイルを
+#読み込み
+#pefileで特徴抽出（APIリスト）
+#pickleに書き込み, 保存
 
 ##ファイルの読み込み
 import sys
