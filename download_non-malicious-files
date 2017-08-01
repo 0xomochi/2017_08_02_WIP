@@ -1,0 +1,22 @@
+#reference -> https://github.com/chigakuishi/vector
+
+#上記urlをgit cloneしてlocalに持って来た後に以下を実行する
+
+#echo '<クローリングしたいWebページのurl>' >> /tmp/list
+#perl get.pl < /path/to/where/the/file/stored
+
+echo 'http://www.vector.co.jp/vpack/filearea/winnt/util/arc' >> /tmp/list
+perl get.pl < /tmp/list
+
+
+#一斉に複数のurlをクローリングしたい場合は以下のように実行する
+echo 'http://www.vector.co.jp/vpack/filearea/winnt/game/shoot' >> /tmp/list
+echo 'http://www.vector.co.jp/vpack/filearea/winnt/game/shoot/index_002.html' >> /tmp/list
+echo 'http://www.vector.co.jp/vpack/filearea/winnt/util/arc' >> /tmp/list
+perl get.pl < /tmp/list
+
+
+#unzipする時のコマンド
+unzip \*.zip
+
+#ファイル名が重複しているエラーが出た場合はrenameすれば良い
